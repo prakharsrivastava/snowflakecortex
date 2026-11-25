@@ -243,3 +243,21 @@ WHERE CONTEXT_TEXT IS NOT NULL;
 - `SOP_STAGE` is unused → `DROP STAGE CORTEX_LAB.SOP_AI.SOP_STAGE;`
 - `SOP_PARSED_DOCUMENTS` currently hardcodes one file; to process all PDFs use `FROM DIRECTORY(@SOP_PDF_STAGE)` with `RELATIVE_PATH`.
 - Search service refreshes every 1 day (`TARGET_LAG`); new chunks show up after refresh.
+
+---
+
+## Architecture Guide
+
+- [Snowflake aur Databricks architecture guide (Hindi)](docs/SNOWFLAKE_DATABRICKS_ARCHITECTURE_HI.md)
+- [Architecture handwritten notes](images/cortex_architecture_note.jpeg)
+
+![Architecture handwritten notes](images/cortex_architecture_note.jpeg)
+
+---
+
+## Architecture Guide
+
+- [Snowflake aur Databricks architecture guide (Hindi)](docs/SNOWFLAKE_DATABRICKS_ARCHITECTURE_HI.md)
+- [Architecture handwritten notes](images/cortex_architecture_note.jpeg)
+
+![Architecture handwritten notes](images/cortex_architecture_note.jpeg)
